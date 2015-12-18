@@ -18,7 +18,7 @@ development:
 test:
   host: 127.0.0.1
   adapter: postgresql
-  database: test1
+  database: test-test
   encoding: unicode
   pool: 5
   username: test1
@@ -27,7 +27,7 @@ test:
 production:
   host: 127.0.0.1
   adapter: postgresql
-  database: test1
+  database: test_prod
   encoding: unicode
   pool: 5
   username: test1
